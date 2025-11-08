@@ -4,10 +4,10 @@ on:
   pull_request_target:
     types: [opened, reopened, synchronize]
     paths:
-      - './communicate-on-pull-request-merged/lib/**'
-      - './communicate-on-pull-request-released/lib/**'
-      - './fastlane-env-reminder/lib/**'
-      - './lock/lib/**'
+      - 'communicate-on-pull-request-merged/lib/**'
+      - 'communicate-on-pull-request-released/lib/**'
+      - 'fastlane-env-reminder/lib/**'
+      - 'lock/lib/**'
 
 jobs:
   test:
